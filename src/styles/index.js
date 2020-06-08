@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
-import Color from '../constants/Color';
+import { createGlobalStyle } from "styled-components";
+import Color from "../constants/Color";
 
 const GlobalStyle = createGlobalStyle`
 html {
@@ -17,6 +17,12 @@ html {
     font-family: 'Karla', sans-serif;
     font-size: 3rem;
 }
+
+  h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
 a {
     text-decoration: none;
